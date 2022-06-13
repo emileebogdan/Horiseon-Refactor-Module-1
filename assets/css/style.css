@@ -79,7 +79,7 @@ p {
     margin-left: 20px;
 }
 
-/*creates content block for benefits*/
+/*formats background of benefits section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,25 +91,25 @@ p {
     background-color: #2589bd;
 }
 
-/*Applies formatting to lead section*/
+/*formats benefits section*/
 .benefits section{
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*applies formatting to heading of lead*/
+/*applies formatting to h3*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*applies formatting to lead image*/
+/*images in benefits*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*applies formatting to seo section*/
+/*applies formatting to benefits section*/
 .content section{
     margin-bottom: 20px;
     padding: 50px;
@@ -118,11 +118,11 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*maintains height of seo image*/
+/*maintains height of content images*/
 .content img {
     max-height: 200px;
 }
-/*seo heading formatting*/
+/*formats h2*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
