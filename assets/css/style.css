@@ -19,7 +19,7 @@ body {
 }
 
 /*Adds formatting to Horiseon*/
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -50,7 +50,6 @@ p {
     font-size: 16px;
 }
 
-/* ????? Should the background image go here or in the html????? */
 /* adds background image to page*/
 .hero {
     height: 800px;
@@ -73,7 +72,7 @@ p {
     margin-left: 25px;
 }
 
-/* creates content blocks for seo, orm, and smm*/
+/* formats content section*/
 .content {
     width: 75%;
     display: inline-block;
@@ -92,64 +91,26 @@ p {
     background-color: #2589bd;
 }
 
-/*??????? Why isn't there a way to combine these into one since they do the same thing???*/
 /*Applies formatting to lead section*/
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Applies formatting to brand section*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*applies formatting to cost section*/
-.benefit-cost {
+.benefits section{
     margin-bottom: 32px;
     color: #ffffff;
 }
 /*applies formatting to heading of lead*/
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*applies formatting to brand heading*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*applies formatting to cost heading*/
-.benefit-cost h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /*applies formatting to lead image*/
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*applies formatting to brand image*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*applies formatting to cost image*/
-.benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /*applies formatting to seo section*/
-.search-engine-optimization {
+.content section{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -157,60 +118,15 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-/*applies formating to orm section*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*applies formatting to smm section*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*????????? is there a better way to control the height of the images*/
 /*maintains height of seo image*/
-.search-engine-optimization img {
+.content img {
     max-height: 200px;
 }
-
-/*maintains height of orm image*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/*maintains height of smm image*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 /*seo heading formatting*/
-.search-engine-optimization h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/*orm heading formatting*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*smm heading formatting*/
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /*formats footer*/
 .footer {
     padding: 30px;

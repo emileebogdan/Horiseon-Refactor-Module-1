@@ -4,31 +4,11 @@
 
 Refactored Horiseon's webpage to be more accessible utilizing semantic language throughout. Eliminating unnecessary lines of code in both the html and css. Editing this webpage made the webpage meet accessibility standards making the webpage viewable/readable by anyone.
 
-## Installation 
+## Credits
 
-<!--Is this necessary for this project?????-->
+Emilee Bogdan
 
-## Usage
+-[Git Hub](https://github.com/emileebogdan)
 
-<!--Is this necessary for this project?????-->
-
-## License
-
-<!--Is this necessarry for this project????-->
-
-
-
-
-
-
-
-
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
+-[LinkedIn](https://www.linkedin.com/in/emileebogdan/)
 
